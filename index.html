@@ -1,0 +1,74 @@
+<html>
+<head>
+    <link href='css/Aristo/jquery-ui-1.8.7.custom.css' rel='stylesheet' type='text/css'>
+    <link href='css/AstroForm.min.css' rel='stylesheet' type='text/css'>
+    <link href='css/demo.css' rel='stylesheet' type='text/css'>
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="jquery.AstroForm.min.js"></script>
+	<script type="text/javascript" src="demo.js"></script>
+	<title>AstroFrom - A jQuery plugin by Mansoor Sayed</title>
+</head>
+
+<body>
+	<h1>Turn regular forms into interactive wizards.</h1>
+	<h2>AstroWizard Form:</h2>
+    <form id="some-form">
+        <fieldset>
+            <legend>General Info</legend>
+            <lable for="firstname">First Name:</lable> <input type="text" name="firstname" />
+            <br/>
+            <lable for="lastname">Last Name:</lable> <input type="text" name="lastname" />
+            <br/>
+            <lable for="email">Email Address:</lable> <input type="text" name="email" />
+            <br/>
+            <lable for="phonenum">Phone Number:</lable> <input type="text" name="phonenum" />
+        </fieldset>
+        <fieldset>
+            <legend>Prefrences</legend>
+            <lable for="color">Your Favorite Color:</lable> <select type="combo" name="color" ><option value="1">Red</option><option value="2">Blue</option><option value="3">Green</option></select>
+            <br/>
+            <lable for="song">Favorite Song:</lable> <input type="text" name="song" />
+            <br/>
+            <lable for="film">Favorite Film:</lable> <input type="text" name="film" />
+        </fieldset>
+        <fieldset>
+            <legend>Comments</legend>
+            <lable for="comments">Any Comments or Questions?<lable><textarea></textarea>
+            
+        </fieldset>
+        <input type="submit" value="submit"/>
+    </form>
+		<br/>
+		<hr/>
+		<h2>Original Form:</h2>
+		<form id="master-form">
+        <fieldset>
+            <legend>General Info</legend>
+            <lable for="firstname">First Name:</lable> <input type="text" name="firstname" />
+            <br/>
+            <lable for="lastname">Last Name:</lable> <input type="text" name="lastname" />
+            <br/>
+            <lable for="email">Email Address:</lable> <input type="text" name="email" />
+            <br/>
+            <lable for="phonenum">Phone Number:</lable> <input type="text" name="phonenum" />
+        </fieldset>
+        <fieldset>
+            <legend>Prefrences</legend>
+            <lable for="color">Your Favorite Color:</lable> <select type="combo" name="color" ><option value="1">Red</option><option value="2">Blue</option><option value="3">Green</option></select>
+            <br/>
+            <lable for="song">Favorite Song:</lable> <input type="text" name="song" />
+            <br/>
+            <lable for="film">Favorite Film:</lable> <input type="text" name="film" />
+        </fieldset>
+        <fieldset>
+            <legend>Comments</legend>
+            <lable for="comments">Any Comments or Questions?<lable><textarea></textarea>
+            
+        </fieldset>
+        <input type="submit" value="submit"/>
+    </form>
+	
+</body>
+</html>
