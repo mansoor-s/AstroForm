@@ -2,7 +2,7 @@
 AstroForm is a jQuery plugin to transform regular HTML forms into interactive wizards with multiple steps. To learn more about how it is used, take a look at the demo index.html file.
 
 ##DEMO:
-[http://mansoorsayed.com/AstroForm/](http://mansoorsayed.com/AstroForm/
+[http://mansoorsayed.com/AstroForm/](http://mansoorsayed.com/AstroForm/)
 
 ##Sample Usage:
     $('selector').AstroForm({
